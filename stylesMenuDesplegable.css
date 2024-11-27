@@ -1,0 +1,49 @@
+/* Contenedor principal */
+#menu-container { 
+    display: inline-block;
+    padding: 20px;
+    border-radius: 8px; 
+    border: 1px solid #ccc;
+    color: #333; 
+    font-family: 'Arial', sans-serif; 
+    /*poner display flex para que este vertical*/
+    display: flex;
+    display: inline-block;
+}
+
+/* Párrafos como encabezados de los menús */
+.p { 
+    min-width: 20%;
+    padding: 10px;
+    cursor: pointer; 
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #f9f9f9; /* Fondo claro */
+    border: 1px solid #e0e0e0; /* Borde sutil */
+    border-radius: 4px; /* Bordes ligeramente redondeados */
+    color: #444; /* Texto oscuro */
+    justify-content: center;
+    text-align: center;
+}
+
+
+/* Estilo de los enlaces dentro de los menús */
+.menus a { 
+    display: block; 
+    color: #444; /* Color azul de los enlaces */
+    text-decoration: none; /* Sin subrayado */
+    background-color: #f9f9f9;
+}
+
+/* Cambio de color cuando el enlace es hovered */
+.menus a:hover { 
+    color: #0d1b2a; /* Azul más oscuro cuando se pasa el ratón */
+}
+
+/* Eliminar los estilos predeterminados de los ul y li */
+.luli{
+    list-style: none; /* Elimina los puntos de las listas */
+    padding: 0;
+    margin: 0;
+}
